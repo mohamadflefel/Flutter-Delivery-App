@@ -1,36 +1,26 @@
 {
   "project_info": {
-    "project_number": "556071861146",
-    "project_id": "delivery-app-19b87",
-    "storage_bucket": "delivery-app-19b87.appspot.com"
+    "project_number": "365559732611",
+    "project_id": "booster-f0630",
+    "storage_bucket": "booster-f0630.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:556071861146:android:adbd8966f7a9d1b5701823",
+        "mobilesdk_app_id": "1:365559732611:android:235b1bf6937ea4692cbeb6",
         "android_client_info": {
-          "package_name": "com.fraved.restaurant"
+          "package_name": "com.flefel.fuelbooster"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "556071861146-vftp91vq78uh2n7h759sjch5kbbsos4d.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyC7px3WD9Rs0_SoawbS_mlVgGZ1XYobnt0"
+          "current_key": "AIzaSyCqWh6wxYSIDn0PIk8hLsqEYJPSX0npbsY"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "556071861146-vftp91vq78uh2n7h759sjch5kbbsos4d.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

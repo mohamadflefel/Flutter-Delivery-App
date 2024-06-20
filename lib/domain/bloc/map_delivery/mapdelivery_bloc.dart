@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:bloc/bloc.dart';
-import 'package:polyline_do/polyline_do.dart' as Polylinedo;
+//import 'package:polyline_do/polyline_do.dart' as Polylinedo;
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:restaurant/data/env/environment.dart';
@@ -88,7 +88,7 @@ class MapdeliveryBloc extends Bloc<MapdeliveryEvent, MapdeliveryState> {
 
     final geometry = mapBoxResponse.routes[0].geometry;
 
-    final points = Polylinedo.Polyline.Decode(encodedString: geometry.toString(), precision: 6).decodedCoords;
+    final points =null;// Polylinedo.Polyline.Decode(encodedString: geometry.toString(), precision: 6).decodedCoords;
 
     final List<LatLng> routeCoords = points.map((p) => LatLng(p[0], p[1])).toList();
 

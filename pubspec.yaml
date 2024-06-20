@@ -6,7 +6,7 @@ publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.19.4 <3.3.0"
+  sdk: ">=2.18.0 <4.0.0"
 
 dependencies:
   flutter:
@@ -29,7 +29,6 @@ dependencies:
   permission_handler: ^10.2.0
   geocoding: ^2.1.0
   intl: ^0.18.1
-  polyline_do: ^0.1.0
   url_launcher: ^6.1.10
   socket_io_client: 1.0.2
   firebase_messaging: ^14.4.1
